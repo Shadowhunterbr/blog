@@ -1,0 +1,35 @@
+.container__articles {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.articles__main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container__menu-bar2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.articles__others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+header {
+    margin-top: 25px;
+    font-size: 32px;
+    color: #3b2f2f;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}

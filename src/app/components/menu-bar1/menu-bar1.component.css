@@ -1,0 +1,17 @@
+
+
+.container__menu-bar1 > ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container__menu-bar1 > ul > li{
+    margin-right: 50px;
+    list-style: none;
+}
+.container__menu-bar1 > ul > li a {
+    font-size: 25px;
+    font-weight: bold; /* Deixa a fonte em negrito */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Garante que a cor fique visível */
+}

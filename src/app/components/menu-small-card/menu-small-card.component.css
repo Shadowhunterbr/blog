@@ -1,0 +1,51 @@
+.container__small-card {
+    border: 4px solid white;
+    width: 400px;
+    height: 650px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Centraliza o texto dentro da div */
+    overflow: hidden; /* Garante que nada ultrapasse os limites da div */
+    transition: transform 0.3s ease-in-out; /* Transição suave para o efeito de transformação */
+}
+
+.container__small-card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% ao passar o mouse */
+}
+
+.container__small-card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.small-card__photo {
+    width: 100%; /* Garante que o contêiner ocupe toda a largura */
+    height: 100%; /* Define metade da altura para a imagem */
+    min-height: 100%;
+    overflow: hidden; /* Evita vazamentos de imagem */
+}
+
+.small-card__photo > img {
+    width: 100%;
+    height: 265px;
+    min-width: 392px;
+    object-fit: cover; /* Faz a imagem preencher toda a área sem distorcer */
+    display: block;
+    border-radius: 2px;
+}
+
+.small-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza o texto dentro da div */
+    width: 100%; /* Ocupa toda a largura disponível */
+    height: 50%; /* Define metade da altura para o conteúdo */
+    max-height: 50%;
+    padding: 10px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+}

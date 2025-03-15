@@ -1,0 +1,7 @@
+header {
+    margin-top: 25px;
+    font-size: 28px;
+    color: #3b2f2f; /* Tom marrom mais escuro para o texto */
+    font-family: 'Roboto Slab', serif; /* Fonte que remete a cafeterias */
+    text-align: center;
+}
